@@ -1,0 +1,116 @@
+ul {
+ 
+    display: flex;
+    align-content: flex-start;
+    justify-content: left;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 3px;
+  }
+  
+  ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+  
+  .header {
+    padding: 20px;
+    height: 100vh;
+    background: url("msdhoni.jpg") no-repeat  center;
+    background-size: cover;
+    position: relative;
+  }
+  .header h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+   
+  .header .content {
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
+  
+  
+  
+  .flex1 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 100px 150px 150px 100px;
+    position: center;
+    background: linear-gradient(to bottom,  #faa46a,  hsl(342, 100%, 72%),  #cd92cf);
+  }
+  
+  .flex1 h1 {
+    font-size: 325%;
+    text-align: center;
+    font-family: Algerian;
+  }
+  .flex1 p {
+    font-weight: 400%;
+    font-family: Imprint MT Shadow;
+    font-size: 150%;
+    text-align: center;
+  }
+   
+  .flex2 {
+  
+    display: flex;
+    color: rgb(250, 254, 255);
+    padding: 100px 150px 150px 100px;
+    position: center;
+     background: linear-gradient(to bottom,   #cd92cf,  hsl(342, 100%, 72%),  #faa46a);
+  }
+  
+  .flex2 h1 {
+    font-size: 325%;
+    text-align: center;
+    font-family: Algerian;
+  }
+  .flex2 p {
+    font-weight: 400%;
+    font-family: Imprint MT Shadow;
+    font-size: 150%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  .flex {
+    display: flex;
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: center;
+  }
+  
+  
+  .flex--vertical {
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 400%;
+    font-family: Imprint MT Shadow;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    padding-left: 3%;
+    padding-right: 3%;
+    background: linear-gradient(to bottom, #faa46a, hsl(342, 100%, 72%), #cd92cf);
+  }
+  .flex--vertical h1 {
+    font-family: Algerian;
+    text-align: center;
+  }
